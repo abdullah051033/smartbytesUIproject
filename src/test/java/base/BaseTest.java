@@ -26,7 +26,7 @@ public class BaseTest {
 
 
 
-    @AfterClass
+    @AfterClass(alwaysRun = true)
     public void commonTearDown(){
         WebDriverFactory.getInstance().quitDriver();
     }
