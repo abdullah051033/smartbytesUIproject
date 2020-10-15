@@ -38,8 +38,13 @@ public class TestClass extends BaseTest{
 	   System.out.println("Login varify Test Ended ......................................");
    }
 
+   
+   @Test(priority = 3)
+   public void regressionTest1() {
+	   System.out.println("regression test1 ran..........");
+	   System.out.println("regression test1 end..........");
+   }
 
-	
 	
 	
 }
