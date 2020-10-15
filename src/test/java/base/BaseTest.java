@@ -17,7 +17,7 @@ public class BaseTest {
     //protected String baseURL ="https://letskodeit.com/automationpractice/";
     
     
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     @Parameters({"browser"})
     public void commonSetUp(String browser){
         driver = WebDriverFactory.getInstance().getDriver(browser);
@@ -28,6 +28,6 @@ public class BaseTest {
 
     @AfterClass
     public void commonTearDown(){
-      //WebDriverFactory.getInstance().quitDriver();
+        WebDriverFactory.getInstance().quitDriver();
     }
 }
