@@ -11,6 +11,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.remote.CapabilityType;
 
+import utilities.Constants;
+
 public class WebDriverFactory {
 
 	// Singleton
@@ -25,6 +27,7 @@ public class WebDriverFactory {
     }
 
     private static ThreadLocal<WebDriver> threadedDriver = new ThreadLocal<WebDriver>();
+    private static ThreadLocal<String> threadedBrowser = new ThreadLocal<String>();
 
 
     /***
@@ -35,6 +38,7 @@ public class WebDriverFactory {
     public WebDriver getDriver(String browser) {
         WebDriver driver = null;
         setDriver(browser);
+        threadedBrowser.set(browser);
         if (threadedDriver.get() == null) {
             try {
                 if (browser.equalsIgnoreCase("firefox")) {
@@ -60,6 +64,12 @@ public class WebDriverFactory {
         }
         return threadedDriver.get();
     }
+    
+    
+    
+    public String getBrowser() {
+    	return threadedBrowser.get();
+    }
 
     public void quitDriver() {
         threadedDriver.get().quit();
@@ -76,7 +86,8 @@ public class WebDriverFactory {
         String driverPath = "";
         String os = System.getProperty("os.name").toLowerCase().substring(0, 3);
         System.out.println("OS Name from system property :: " + os);
-        String directory = System.getProperty("user.dir") + "\\drivers\\";
+        //String directory = System.getProperty("user.dir") + "\\drivers\\";  or we can write the following line 
+        String directory = Constants.USER_DIRECTORY + Constants.DRIVERS_DRIRECTORY;
         String driverKey = "";
         String driverValue = "";
 

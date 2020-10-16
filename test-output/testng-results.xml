@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="4" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-15T21:40:21Z" name="Regression Test Suite" finished-at="2020-10-15T21:40:42Z" duration-ms="21656">
+  <suite started-at="2020-10-16T17:22:14Z" name="Regression Test Suite" finished-at="2020-10-16T17:22:26Z" duration-ms="11611">
     <groups>
       <group name="smoke">
-        <method signature="TestClass.loginVerify()[pri:1, instance:testClasses.TestClass@7995092a]" name="loginVerify" class="testClasses.TestClass"/>
-        <method signature="TestClass.regressionTest1()[pri:3, instance:testClasses.TestClass@7995092a]" name="regressionTest1" class="testClasses.TestClass"/>
+        <method signature="TestClass.loginVerify()[pri:1, instance:testClasses.TestClass@3e821657]" name="loginVerify" class="testClasses.TestClass"/>
+        <method signature="TestClass.regressionTest1()[pri:3, instance:testClasses.TestClass@3e821657]" name="regressionTest1" class="testClasses.TestClass"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2020-10-15T21:40:21Z" name="Application Test" finished-at="2020-10-15T21:40:42Z" duration-ms="21656">
+    <test started-at="2020-10-16T17:22:14Z" name="Application Test" finished-at="2020-10-16T17:22:26Z" duration-ms="11611">
       <class name="testClasses.TestClass">
-        <test-method is-config="true" signature="commonSetUp(java.lang.String)[pri:0, instance:testClasses.TestClass@7995092a]" started-at="2020-10-15T21:40:21Z" name="commonSetUp" finished-at="2020-10-15T21:40:30Z" duration-ms="8967" status="PASS">
+        <test-method is-config="true" signature="commonSetUp(java.lang.String)[pri:0, instance:testClasses.TestClass@3e821657]" started-at="2020-10-16T17:22:14Z" name="commonSetUp" finished-at="2020-10-16T17:22:23Z" duration-ms="8793" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,54 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- commonSetUp -->
-        <test-method signature="loginVerify()[pri:1, instance:testClasses.TestClass@7995092a]" started-at="2020-10-15T21:40:30Z" name="loginVerify" finished-at="2020-10-15T21:40:42Z" duration-ms="12065" status="PASS">
+        <test-method signature="loginVerify()[pri:1, instance:testClasses.TestClass@3e821657]" started-at="2020-10-16T17:22:23Z" name="loginVerify" finished-at="2020-10-16T17:22:25Z" duration-ms="1802" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at testClasses.TestClass.loginVerify(TestClass.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginVerify -->
-        <test-method signature="regressionTest1()[pri:3, instance:testClasses.TestClass@7995092a]" started-at="2020-10-15T21:40:42Z" name="regressionTest1" finished-at="2020-10-15T21:40:42Z" duration-ms="1" status="PASS">
+        <test-method signature="regressionTest1()[pri:3, instance:testClasses.TestClass@3e821657]" started-at="2020-10-16T17:22:25Z" name="regressionTest1" finished-at="2020-10-16T17:22:25Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regressionTest1 -->
-        <test-method is-config="true" signature="commonTearDown()[pri:0, instance:testClasses.TestClass@7995092a]" started-at="2020-10-15T21:40:42Z" name="commonTearDown" finished-at="2020-10-15T21:40:42Z" duration-ms="606" status="PASS">
+        <test-method is-config="true" signature="commonTearDown()[pri:0, instance:testClasses.TestClass@3e821657]" started-at="2020-10-16T17:22:25Z" name="commonTearDown" finished-at="2020-10-16T17:22:26Z" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- commonTearDown -->

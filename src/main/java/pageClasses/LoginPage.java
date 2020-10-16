@@ -1,14 +1,19 @@
 package pageClasses;
 
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import base.CustomDriver;
+import utilities.Constants;
+
 
 public class LoginPage {
-	
+	private static final Logger logger = LogManager.getLogger(LoginPage.class.getName());
 	private WebDriver driver;
 	private CustomDriver cd;
 	
@@ -28,9 +33,12 @@ public class LoginPage {
 	
 		
 	public void loginIntoAccount() {
-		emailAddressBox.sendKeys("abdullah051033@gmail.com");
-		passwordBox.sendKeys("smartbytespasswd01");
+		logger.info("Loggin into account ............................");
+		emailAddressBox.sendKeys(Constants.USER_NAME);
+		passwordBox.sendKeys(Constants.PASSWORD);
 		cd.elementClick(loginBtn, "loginbtn");
+		logger.info("Loged in into Account............................");
+		
 		
 	}
 	
