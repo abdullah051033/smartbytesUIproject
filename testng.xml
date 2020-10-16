@@ -1,6 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Regression Test Suite" verbose="10">
+	<listeners>
+		<listener class-name= "base.TestListeners" />
+	</listeners>
+
     <test name="Application Test" preserve-order="true">  
         <parameter name="browser" value="chrome"></parameter>
         
