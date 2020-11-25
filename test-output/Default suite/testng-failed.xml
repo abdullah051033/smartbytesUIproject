@@ -8,7 +8,6 @@
           <include name="commonTearDown"/>
           <include name="loginVerify"/>
           <include name="commonSetUp"/>
-          <include name="regressionTest1"/>
         </methods>
       </class> <!-- testClasses.TestClass -->
     </classes>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smoke Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="base.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Application Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testClasses.TestClass">
+        <methods>
+          <include name="commonTearDown"/>
+          <include name="loginVerify"/>
+          <include name="commonSetUp"/>
+        </methods>
+      </class> <!-- testClasses.TestClass -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+</suite> <!-- Failed suite [smoke Test Suite] -->

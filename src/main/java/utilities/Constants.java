@@ -9,7 +9,7 @@ public class Constants {
 	public static final String DRIVERS_DRIRECTORY = "\\drivers\\";
 	
 	//Credentials
-	public static final String USER_NAME = "abdullah051033@gmail.co";
+	public static final String USER_NAME = "abdullah051033@gmail.com";
 	public static final String PASSWORD = "smartbytespasswd01";
 	
 	

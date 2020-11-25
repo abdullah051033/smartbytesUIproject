@@ -20,7 +20,11 @@ public class CustomDriver {
 	    }
 	    
 	    
-	    
+	    public void elementClick(WebElement element, String info){
+	        element.click();
+	        System.out.println("clicked in element " +element);
+	        
+	    }
 	    /***
 	     *
 	     * @param methodName
@@ -82,10 +86,7 @@ public class CustomDriver {
 
 
 
-	    public void elementClick(WebElement element, String info){
-	        element.click();
-	        System.out.println("clicked in element " +element);
-	    }
+	    
 
 
 

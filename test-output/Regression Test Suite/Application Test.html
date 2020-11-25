@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Application Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 16 13:22:14 EDT 2020</td>
+<td>Started on:</td><td>Tue Oct 20 20:09:26 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11611 ms)</td>
+<tr><td>Total time:</td><td>15 seconds (15071 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>smoke </td>
 </tr><tr>
@@ -76,16 +76,18 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testClasses.TestClass.loginVerify()'><b>loginVerify</b><br>Test class: testClasses.TestClass</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+<td><div><pre>java.lang.AssertionError: expected [] but found [Warning: No match for E-Mail Address and/or Password.]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertTrue(Assert.java:44)
-	at org.testng.Assert.assertTrue(Assert.java:54)
-	at testClasses.TestClass.loginVerify(TestClass.java:43)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at testClasses.TestClass.loginVerify(TestClass.java:46)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -107,17 +109,19 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace525527919", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace525527919'><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre></div><a href='#' onClick='toggleBox("stack-trace284123040", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace284123040'><pre>java.lang.AssertionError: expected [] but found [Warning: No match for E-Mail Address and/or Password.]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertTrue(Assert.java:44)
-	at org.testng.Assert.assertTrue(Assert.java:54)
-	at testClasses.TestClass.loginVerify(TestClass.java:43)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at testClasses.TestClass.loginVerify(TestClass.java:46)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -141,7 +145,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>1</td>
-<td>testClasses.TestClass@3e821657</td></tr>
+<td>testClasses.TestClass@2a65bb85</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -154,7 +158,17 @@ function toggleAllBoxes() {
 <td title='testClasses.TestClass.regressionTest1()'><b>regressionTest1</b><br>Test class: testClasses.TestClass</td>
 <td></td>
 <td>0</td>
-<td>testClasses.TestClass@3e821657</td></tr>
+<td>testClasses.TestClass@2a65bb85</td></tr>
+<tr>
+<td title='testClasses.TestClass.regressionTest2()'><b>regressionTest2</b><br>Test class: testClasses.TestClass</td>
+<td></td>
+<td>0</td>
+<td>testClasses.TestClass@2a65bb85</td></tr>
+<tr>
+<td title='testClasses.TestClass.verifyAboutUSpage()'><b>verifyAboutUSpage</b><br>Test class: testClasses.TestClass</td>
+<td></td>
+<td>3</td>
+<td>testClasses.TestClass@2a65bb85</td></tr>
 </table><p>
 </body>
 </html>

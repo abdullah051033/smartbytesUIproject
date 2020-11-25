@@ -9,20 +9,22 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Regression Test Suite</th></tr>
-<tr><td><a href="#t0">Application Test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">11,611</td><td>smoke</td><td></td></tr>
+<tr><td><a href="#t0">Application Test</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">1</td><td class="num">15,071</td><td>smoke</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Application Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testClasses.TestClass</td><td><a href="#m0">loginVerify</a></td><td rowspan="1">1602868943250</td><td rowspan="1">1802</td></tr><tr><th colspan="4">Application Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testClasses.TestClass</td><td><a href="#m1">regressionTest1</a></td><td rowspan="1">1602868945442</td><td rowspan="1">1</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Application Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testClasses.TestClass</td><td><a href="#m0">loginVerify</a></td><td rowspan="1">1603238975337</td><td rowspan="1">1828</td></tr><tr><th colspan="4">Application Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testClasses.TestClass</td><td><a href="#m1">regressionTest1</a></td><td rowspan="1">1603238980886</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m2">regressionTest2</a></td><td rowspan="1">1603238980888</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m3">verifyAboutUSpage</a></td><td rowspan="1">1603238977572</td><td rowspan="1">3312</td></tr></tbody>
 </table>
-<h2>Application Test</h2><h3 id="m0">testClasses.TestClass#loginVerify</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+<h2>Application Test</h2><h3 id="m0">testClasses.TestClass#loginVerify</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [] but found [Warning: No match for E-Mail Address and/or Password.]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertTrue(Assert.java:44)
-	at org.testng.Assert.assertTrue(Assert.java:54)
-	at testClasses.TestClass.loginVerify(TestClass.java:43)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at testClasses.TestClass.loginVerify(TestClass.java:46)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -46,5 +48,7 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">testClasses.TestClass#regressionTest1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testClasses.TestClass#regressionTest2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testClasses.TestClass#verifyAboutUSpage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
