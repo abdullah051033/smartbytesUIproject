@@ -7,14 +7,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import base.BasePage;
 import base.CustomDriver;
 
-public class AboutUS {
+public class AboutUS extends BasePage{
 
 	WebDriver driver;
 	CustomDriver cd;
 	
 	public AboutUS(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		cd = new CustomDriver(driver);

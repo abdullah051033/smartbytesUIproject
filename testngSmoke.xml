@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="smoke Test Suite" verbose="10">
+	<listeners>
+		<listener class-name= "base.TestListeners" />
+	</listeners>
+
+    <test name="Application Test" preserve-order="true">  
+        <parameter name="browser" value="chrome"></parameter>     
+        <groups>
+        	<run>
+        		<include name = "smoke"></include>
+        	</run>
+        </groups>
+        
+        <classes>
+            <class name="testClasses.TestClass"></class>
+        </classes>
+    </test>
+
+</suite>

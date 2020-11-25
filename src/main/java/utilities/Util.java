@@ -13,6 +13,36 @@ import com.google.common.collect.Ordering;
 public class Util {
 
 	private static final Logger log = LogManager.getLogger(Util.class.getName());
+		
+    /***
+     * Get a unique screenshot name
+     * @param methodName
+     * @return
+     */
+    public static String getScreenshotName(String methodName, String browserName) {
+        String localDateTime = getCurrentDateTime();
+        StringBuilder name = new StringBuilder().append(browserName)
+                                                .append("_")
+                                                .append(methodName)
+                                                .append("_")
+                                                .append(localDateTime)
+                                                .append(".png");
+        return name.toString();
+    }
+    
+    /***
+     * Get simple date time as string
+     * @return date time as string type
+     */
+    public static String getCurrentDateTime(){
+        Calendar currentDate = Calendar.getInstance();
+        SimpleDateFormat formatter = new SimpleDateFormat(
+                "MM/dd/yyyy HH:mm:ss");
+        String date = formatter.format(currentDate.getTime()).replace("/", "_");
+        date = date.replace(":", "_");
+        log.info("Current Date and Time :: " + date);
+        return date;
+    }
 
     /***
      * Sleep for specified number of milliseconds
@@ -38,21 +68,7 @@ public class Util {
         sleep(msec, null);
     }
 
-    /***
-     * Get a unique screenshot name
-     * @param methodName
-     * @return
-     */
-    public static String getScreenshotName(String methodName, String browserName) {
-        String localDateTime = getCurrentDateTime();
-        StringBuilder name = new StringBuilder().append(browserName)
-                                                .append("_")
-                                                .append(methodName)
-                                                .append("_")
-                                                .append(localDateTime)
-                                                .append(".png");
-        return name.toString();
-    }
+
 
     /***
      * Get a unique report name
@@ -129,19 +145,7 @@ public class Util {
         return formattedDate;
     }
 
-    /***
-     * Get simple date time as string
-     * @return date time as string type
-     */
-    public static String getCurrentDateTime(){
-        Calendar currentDate = Calendar.getInstance();
-        SimpleDateFormat formatter = new SimpleDateFormat(
-                "MM/dd/yyyy HH:mm:ss");
-        String date = formatter.format(currentDate.getTime()).replace("/", "_");
-        date = date.replace(":", "_");
-        log.info("Current Date and Time :: " + date);
-        return date;
-    }
+  
 
     /**
      * Checks whether actual String contains expected string and prints both in log
