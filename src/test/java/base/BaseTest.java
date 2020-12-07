@@ -26,15 +26,20 @@ public class BaseTest {
     public CustomDriver cd;
     public static Properties prop;
     
+    
+    //BrowserStack code
+  public static final String USERNAME = "mamunm1";
+  public static final String AUTOMATE_KEY = "D1VxNCnbsxzoNJsYM9Kx";
+  public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
       
     @BeforeClass(alwaysRun = true)
     @Parameters({"browser"})
     public void commonSetUp(String browser) throws IOException{
-    	FileInputStream fis= new FileInputStream(Constants.PROPERTIES_FILE_PATH);
-    	prop= new Properties();
-    	prop.load(fis);  	
-        driver = WebDriverFactory.getInstance().getDriver(browser);
-        driver.get(prop.getProperty("baseURL"));
+//    	FileInputStream fis= new FileInputStream(Constants.PROPERTIES_FILE_PATH);
+//    	prop= new Properties();
+//    	prop.load(fis);  	
+//        driver = WebDriverFactory.getInstance().getDriver(browser);
+//        driver.get(prop.getProperty("baseURL"));
         
         //to run in grid node please uncomment following lines 
 //        String baseUrl="https://smartbytes.v-logics.com/ocart/index.php?route=common/home";
@@ -47,6 +52,16 @@ public class BaseTest {
 //        driver.manage().window().maximize();
 //        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         
+        
+    	//to run in BrowserStack uncomment the following code . BrowserStack is cloud platform to run Selenium Grid
+    	DesiredCapabilities caps = new DesiredCapabilities();      
+        caps.setCapability("os", "Windows");
+        caps.setCapability("os_version", "10");
+        caps.setCapability("browser", "Firefox");
+        caps.setCapability("browser_version", "76.0");
+              
+        driver = new RemoteWebDriver(new URL(URL), caps);
+        driver.get("https://smartbytes.v-logics.com/ocart/index.php?route=common/home");
     } 	
 
 

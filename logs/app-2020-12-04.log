@@ -1,0 +1,217 @@
+14:58:08.107 INFO  utilities.Util -Current Date and Time :: 12_04_2020 14_58_08
+14:58:08.323 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+14:58:08.323 INFO  base.TestListeners -These methods will be executed in this <test> tag
+14:58:08.323 INFO  base.TestListeners -loginVerify
+14:58:08.324 INFO  base.TestListeners -regressionTest1
+14:58:08.324 INFO  base.TestListeners -regressionTest2
+14:58:08.324 INFO  base.TestListeners -verifyAboutUSpage
+14:58:29.762 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+14:58:29.766 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+14:58:29.801 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+15:01:12.294 INFO  utilities.Util -Current Date and Time :: 12_04_2020 15_01_12
+15:01:12.507 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+15:01:12.508 INFO  base.TestListeners -These methods will be executed in this <test> tag
+15:01:12.508 INFO  base.TestListeners -loginVerify
+15:01:12.508 INFO  base.TestListeners -regressionTest1
+15:01:12.508 INFO  base.TestListeners -regressionTest2
+15:01:12.508 INFO  base.TestListeners -verifyAboutUSpage
+15:01:18.639 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+15:01:18.645 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+15:01:18.689 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+15:09:39.401 INFO  utilities.Util -Current Date and Time :: 12_04_2020 15_09_39
+15:09:39.583 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+15:09:39.584 INFO  base.TestListeners -These methods will be executed in this <test> tag
+15:09:39.584 INFO  base.TestListeners -loginVerify
+15:09:39.584 INFO  base.TestListeners -regressionTest1
+15:09:39.584 INFO  base.TestListeners -regressionTest2
+15:09:39.584 INFO  base.TestListeners -verifyAboutUSpage
+15:10:00.980 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+15:10:00.985 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+15:10:01.014 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+16:07:19.098 INFO  utilities.Util -Current Date and Time :: 12_04_2020 16_07_19
+16:07:19.282 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+16:07:19.282 INFO  base.TestListeners -These methods will be executed in this <test> tag
+16:07:19.282 INFO  base.TestListeners -loginVerify
+16:07:19.282 INFO  base.TestListeners -regressionTest1
+16:07:19.282 INFO  base.TestListeners -regressionTest2
+16:07:19.282 INFO  base.TestListeners -verifyAboutUSpage
+16:07:21.697 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+16:07:21.700 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+16:07:21.730 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+16:07:48.957 INFO  utilities.Util -Current Date and Time :: 12_04_2020 16_07_48
+16:07:49.141 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+16:07:49.141 INFO  base.TestListeners -These methods will be executed in this <test> tag
+16:07:49.141 INFO  base.TestListeners -loginVerify
+16:07:49.141 INFO  base.TestListeners -regressionTest1
+16:07:49.141 INFO  base.TestListeners -regressionTest2
+16:07:49.141 INFO  base.TestListeners -verifyAboutUSpage
+16:07:51.539 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+16:07:51.545 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+16:07:51.576 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+16:15:22.581 INFO  utilities.Util -Current Date and Time :: 12_04_2020 16_15_22
+16:15:22.772 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+16:15:22.772 INFO  base.TestListeners -These methods will be executed in this <test> tag
+16:15:22.772 INFO  base.TestListeners -loginVerify
+16:15:22.772 INFO  base.TestListeners -regressionTest1
+16:15:22.772 INFO  base.TestListeners -regressionTest2
+16:15:22.772 INFO  base.TestListeners -verifyAboutUSpage
+16:15:29.115 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+16:15:29.123 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+16:15:29.158 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+17:47:15.047 INFO  utilities.Util -Current Date and Time :: 12_04_2020 17_47_15
+17:47:15.241 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+17:47:15.241 INFO  base.TestListeners -These methods will be executed in this <test> tag
+17:47:15.241 INFO  base.TestListeners -loginVerify
+17:47:15.241 INFO  base.TestListeners -regressionTest1
+17:47:15.241 INFO  base.TestListeners -regressionTest2
+17:47:15.241 INFO  base.TestListeners -verifyAboutUSpage
+17:47:18.931 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+17:47:18.938 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+17:47:18.981 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+17:51:12.038 INFO  utilities.Util -Current Date and Time :: 12_04_2020 17_51_12
+17:51:12.227 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+17:51:12.227 INFO  base.TestListeners -These methods will be executed in this <test> tag
+17:51:12.228 INFO  base.TestListeners -loginVerify
+17:51:12.228 INFO  base.TestListeners -regressionTest1
+17:51:12.228 INFO  base.TestListeners -regressionTest2
+17:51:12.228 INFO  base.TestListeners -verifyAboutUSpage
+17:51:16.042 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+17:51:16.050 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+17:51:16.099 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+17:59:43.289 INFO  utilities.Util -Current Date and Time :: 12_04_2020 17_59_43
+17:59:43.502 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+17:59:43.502 INFO  base.TestListeners -These methods will be executed in this <test> tag
+17:59:43.502 INFO  base.TestListeners -loginVerify
+17:59:43.502 INFO  base.TestListeners -regressionTest1
+17:59:43.502 INFO  base.TestListeners -regressionTest2
+17:59:43.502 INFO  base.TestListeners -verifyAboutUSpage
+18:00:04.903 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+18:00:04.907 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+18:00:04.937 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+18:03:01.219 INFO  utilities.Util -Current Date and Time :: 12_04_2020 18_03_01
+18:03:01.398 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+18:03:01.398 INFO  base.TestListeners -These methods will be executed in this <test> tag
+18:03:01.398 INFO  base.TestListeners -loginVerify
+18:03:01.398 INFO  base.TestListeners -regressionTest1
+18:03:01.398 INFO  base.TestListeners -regressionTest2
+18:03:01.398 INFO  base.TestListeners -verifyAboutUSpage
+18:03:22.867 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+18:03:22.872 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+18:03:22.902 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+18:03:40.207 INFO  utilities.Util -Current Date and Time :: 12_04_2020 18_03_40
+18:03:40.393 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+18:03:40.393 INFO  base.TestListeners -These methods will be executed in this <test> tag
+18:03:40.393 INFO  base.TestListeners -loginVerify
+18:03:40.393 INFO  base.TestListeners -regressionTest1
+18:03:40.393 INFO  base.TestListeners -regressionTest2
+18:03:40.393 INFO  base.TestListeners -verifyAboutUSpage
+18:03:42.787 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+18:03:42.791 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+18:03:42.817 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+18:11:50.152 INFO  utilities.Util -Current Date and Time :: 12_04_2020 18_11_50
+18:11:50.342 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+18:11:50.342 INFO  base.TestListeners -These methods will be executed in this <test> tag
+18:11:50.342 INFO  base.TestListeners -loginVerify
+18:11:50.342 INFO  base.TestListeners -regressionTest1
+18:11:50.343 INFO  base.TestListeners -regressionTest2
+18:11:50.343 INFO  base.TestListeners -verifyAboutUSpage
+18:11:59.704 INFO  testClasses.TestClass -Login varify Test Started......................................
+18:12:00.497 INFO  pageClasses.LoginPage -Loggin into account ............................
+18:12:01.479 INFO  pageClasses.LoginPage -Loged in into Account............................
+18:12:01.522 INFO  testClasses.TestClass -login verify fail 
+18:12:01.528 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+18:12:01.551 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+18:12:01.582 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+18:17:39.580 INFO  utilities.Util -Current Date and Time :: 12_04_2020 18_17_39
+18:17:39.767 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+18:17:39.767 INFO  base.TestListeners -These methods will be executed in this <test> tag
+18:17:39.767 INFO  base.TestListeners -loginVerify
+18:17:39.767 INFO  base.TestListeners -regressionTest1
+18:17:39.767 INFO  base.TestListeners -regressionTest2
+18:17:39.767 INFO  base.TestListeners -verifyAboutUSpage
+18:17:46.781 INFO  testClasses.TestClass -Login varify Test Started......................................
+18:17:47.606 INFO  pageClasses.LoginPage -Loggin into account ............................
+18:17:53.937 INFO  pageClasses.LoginPage -Loged in into Account............................
+18:17:54.015 INFO  testClasses.TestClass -Login varify Test Passed ......................................
+18:17:54.016 INFO  base.TestListeners -onTestSuccess -> Test Method Name: loginVerify
+18:17:59.860 INFO  testClasses.TestClass -about us flag verify pass....................................
+18:17:59.861 INFO  base.TestListeners -onTestSuccess -> Test Method Name: verifyAboutUSpage
+18:17:59.863 INFO  testClasses.TestClass -regression Test1 Started......................................
+18:17:59.863 INFO  testClasses.TestClass -regression Test1 end..........................................
+18:17:59.864 INFO  base.TestListeners -onTestSuccess -> Test Method Name: regressionTest1
+18:17:59.865 INFO  testClasses.TestClass -regression Test2 Started......................................
+18:17:59.865 INFO  testClasses.TestClass -regression Test2 end..........................................
+18:17:59.866 INFO  base.TestListeners -onTestSuccess -> Test Method Name: regressionTest2
+18:18:00.641 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+18:19:27.397 INFO  utilities.Util -Current Date and Time :: 12_04_2020 18_19_27
+18:19:27.577 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+18:19:27.578 INFO  base.TestListeners -These methods will be executed in this <test> tag
+18:19:27.578 INFO  base.TestListeners -loginVerify
+18:19:27.578 INFO  base.TestListeners -regressionTest1
+18:19:27.578 INFO  base.TestListeners -regressionTest2
+18:19:27.578 INFO  base.TestListeners -verifyAboutUSpage
+18:19:34.589 INFO  testClasses.TestClass -Login varify Test Started......................................
+18:19:35.408 INFO  pageClasses.LoginPage -Loggin into account ............................
+18:19:41.568 INFO  pageClasses.LoginPage -Loged in into Account............................
+18:19:41.635 INFO  testClasses.TestClass -Login varify Test Passed ......................................
+18:19:41.637 INFO  base.TestListeners -onTestSuccess -> Test Method Name: loginVerify
+18:19:47.391 INFO  testClasses.TestClass -about us flag verify pass....................................
+18:19:47.392 INFO  base.TestListeners -onTestSuccess -> Test Method Name: verifyAboutUSpage
+18:19:47.394 INFO  testClasses.TestClass -regression Test1 Started......................................
+18:19:47.394 INFO  testClasses.TestClass -regression Test1 end..........................................
+18:19:47.396 INFO  base.TestListeners -onTestSuccess -> Test Method Name: regressionTest1
+18:19:47.397 INFO  testClasses.TestClass -regression Test2 Started......................................
+18:19:47.397 INFO  testClasses.TestClass -regression Test2 end..........................................
+18:19:47.398 INFO  base.TestListeners -onTestSuccess -> Test Method Name: regressionTest2
+18:19:48.047 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+18:22:03.043 INFO  utilities.Util -Current Date and Time :: 12_04_2020 18_22_03
+18:22:03.249 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+18:22:03.249 INFO  base.TestListeners -These methods will be executed in this <test> tag
+18:22:03.249 INFO  base.TestListeners -loginVerify
+18:22:03.249 INFO  base.TestListeners -regressionTest1
+18:22:03.249 INFO  base.TestListeners -regressionTest2
+18:22:03.249 INFO  base.TestListeners -verifyAboutUSpage
+18:22:03.709 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+18:22:03.714 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+18:22:03.749 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+18:28:56.731 INFO  utilities.Util -Current Date and Time :: 12_04_2020 18_28_56
+18:28:56.929 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+18:28:56.929 INFO  base.TestListeners -These methods will be executed in this <test> tag
+18:28:56.929 INFO  base.TestListeners -loginVerify
+18:28:56.929 INFO  base.TestListeners -regressionTest1
+18:28:56.930 INFO  base.TestListeners -regressionTest2
+18:28:56.930 INFO  base.TestListeners -verifyAboutUSpage
+18:28:57.429 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+18:28:57.433 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+18:28:57.467 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+18:30:25.122 INFO  utilities.Util -Current Date and Time :: 12_04_2020 18_30_25
+18:30:25.321 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+18:30:25.321 INFO  base.TestListeners -These methods will be executed in this <test> tag
+18:30:25.321 INFO  base.TestListeners -loginVerify
+18:30:25.321 INFO  base.TestListeners -regressionTest1
+18:30:25.321 INFO  base.TestListeners -regressionTest2
+18:30:25.321 INFO  base.TestListeners -verifyAboutUSpage
+18:30:25.780 INFO  base.TestListeners -onTestSkipped -> Test Method Name: loginVerify
+18:30:25.786 INFO  base.TestListeners -onTestFailure -> Test Method Name: loginVerify
+18:30:25.834 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+18:33:48.652 INFO  utilities.Util -Current Date and Time :: 12_04_2020 18_33_48
+18:33:48.893 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+18:33:48.894 INFO  base.TestListeners -These methods will be executed in this <test> tag
+18:33:48.894 INFO  base.TestListeners -loginVerify
+18:33:48.894 INFO  base.TestListeners -regressionTest1
+18:33:48.894 INFO  base.TestListeners -regressionTest2
+18:33:48.894 INFO  base.TestListeners -verifyAboutUSpage
+18:33:56.833 INFO  testClasses.TestClass -Login varify Test Started......................................
+18:33:57.617 INFO  pageClasses.LoginPage -Loggin into account ............................
+18:34:03.749 INFO  pageClasses.LoginPage -Loged in into Account............................
+18:34:03.819 INFO  testClasses.TestClass -Login varify Test Passed ......................................
+18:34:03.820 INFO  base.TestListeners -onTestSuccess -> Test Method Name: loginVerify
+18:34:09.462 INFO  testClasses.TestClass -about us flag verify pass....................................
+18:34:09.463 INFO  base.TestListeners -onTestSuccess -> Test Method Name: verifyAboutUSpage
+18:34:09.465 INFO  testClasses.TestClass -regression Test1 Started......................................
+18:34:09.465 INFO  testClasses.TestClass -regression Test1 end..........................................
+18:34:09.465 INFO  base.TestListeners -onTestSuccess -> Test Method Name: regressionTest1
+18:34:09.466 INFO  testClasses.TestClass -regression Test2 Started......................................
+18:34:09.466 INFO  testClasses.TestClass -regression Test2 end..........................................
+18:34:09.466 INFO  base.TestListeners -onTestSuccess -> Test Method Name: regressionTest2
+18:34:10.261 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
